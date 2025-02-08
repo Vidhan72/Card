@@ -1,0 +1,90 @@
+# Card
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Ex</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: aliceblue;
+            width: 314px;
+            height: 534px;
+            border-radius: 9px;
+            padding: 25px px 25px 0px;
+            margin: 55px  55px;
+        }
+        .imgage img{
+            width: 294px;
+            height: 264px;
+            margin: auto;
+            padding: 9px 10px 9px 10px;
+            border-radius: 17px;
+        }
+        .capsule{
+            padding: 0px 11px;
+        }
+         .capsule span{
+            border: 1px solid gray;
+            margin: 0px;
+            padding: 0px 10px 0px 10px;
+            border-radius: 9px;
+            color: gray;
+
+        }
+        .content{
+            margin: 0;
+            padding: 23px 12px 0px 12px;
+        }
+        .content h2{
+            font-weight: lighter;
+            font-size: 29px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: auto;
+            color: rgb(52, 50, 50);
+        }
+        .content p{
+            color: gray;
+        }
+        .button{
+            text-align: center;
+            padding: 20px 0px;
+            size: 20px;
+        }
+        .button button{
+            color: rgb(0, 0, 255);
+            background-color: rgba(87, 128, 175, 0.54);
+            border-radius: 35px;
+            height: 30px;
+            width: 85px;
+            border: none;
+        }
+        .button button:hover{
+            background-color: rgb(159, 171, 197);
+            color:rgb(82, 122, 201) ;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="imgage">
+        <img src="man with boat.jpg" alt="not found img">
+        </div>
+        <div class="capsule"><span>nature</span>  <span>lake</span></div>
+        <div class="content">
+            <h2>Atul</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui beatae mollitia quidem voluptates illum illo dolor exercitationem. Praesentium, error. Possimus, nesciunt quisquam!</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </main>
+</body>
+</html>
